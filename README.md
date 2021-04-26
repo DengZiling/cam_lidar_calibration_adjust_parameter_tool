@@ -1,0 +1,2 @@
+# cam_lidar_calibration_adjust_parameter_tool
+在使用autoware的相机和激光雷达联合标定工具进行标定得到的外参（旋转矩阵R和平移矩阵t）并不能很好的使相机图像和激光雷达扫描结果契合，因此需要进行手动调参，本工具是一个QT编写的cmake工程，可以用来辅助调参。
